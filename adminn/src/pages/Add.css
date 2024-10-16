@@ -1,0 +1,140 @@
+/* Add.css */
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: -750px;
+}
+
+.form-contain {
+  background-color: #e0d9d9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 100%;
+}
+
+.form-contain p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.image-collection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-collection {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.form-collection:hover {
+  border-color: #888;
+}
+
+.form-collection img {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product input,
+.product textarea,
+.category-dropdown,
+.dropdown-subcategory {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.product input:focus,
+.product textarea:focus,
+.category-dropdown:focus,
+.dropdown-subcategory:focus {
+  border-color: #555;
+}
+
+.product textarea {
+  resize: none;
+  height: 80px;
+}
+
+.category-contain,
+.subCategory-contain {
+  margin-bottom: 20px;
+}
+
+.product-price input {
+  max-width: 100px;
+}
+
+.sizes-contain {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sizes {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.sizes:hover {
+  background-color: #e0e0e0;
+  border-color: #888;
+}
+
+.product-sizes {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bestseller {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bestseller input {
+  margin-right: 10px;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
